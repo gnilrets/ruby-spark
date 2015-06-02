@@ -1,5 +1,7 @@
 # Ruby-Spark [![Build Status](https://travis-ci.org/ondra-m/ruby-spark.svg?branch=master)](https://travis-ci.org/ondra-m/ruby-spark)
 
+[![Join the chat at https://gitter.im/gnilrets/ruby-spark](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/gnilrets/ruby-spark?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Apache Spark™ is a fast and general engine for large-scale data processing.
 
 This Gem allows you use Spark functionality on Ruby.
