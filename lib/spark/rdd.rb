@@ -1238,6 +1238,19 @@ module Spark
     end
 
 
+    # Save the RDD as a text file
+    #
+    # == Example:
+    #   rdd = $sc.parallelize([1,2,3,4,5])
+    #   rdd.save_as_text_file(path)
+    #
+    def save_as_text_file(path)
+      jrdd.saveAsTextFile(path)
+    end
+
+
+
+
     # Aliases
     alias_method :partitionsSize, :partitions_size
     alias_method :defaultReducePartitions, :default_reduce_partitions
